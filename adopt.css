@@ -1,0 +1,96 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add! */
+
+html {
+  height: 100%;
+}
+
+body {
+  width: 800px;
+  height: 100%;
+  background-color: #ffff80;
+  font-size: 15;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: green;
+  padding: 5px;
+  font-size: 20;
+  display: block;
+  color: white;
+  text-align: center;
+}
+
+nav {
+  float: left;
+  background-color: #33cc33;
+  height: 50;
+  
+}
+
+nav ul {
+  padding: ;
+  float: left;
+  border-bottom: ;
+  list-style-type: none;
+  width: 760px;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  height: 25px;
+  padding: 12px 18px 8px 18px;
+  vertical-align: middle;
+}
+
+a {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+    color: #adebad;
+}
+
+section {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+img {
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+
+.centeredtitle {
+  text-align: center;
+}
+
+aside {
+  width: 17%;
+  display: inline-block;
+  background-color:;
+  padding:;
+  min-height: 100%;
+}
+
+aside ul {
+  list-style-type: none;
+}
+
+footer {
+  width: 790px;
+  background-color:;
+  color:;
+  clear: both;
+  display: block;
+}
