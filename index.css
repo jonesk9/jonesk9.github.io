@@ -1,57 +1,69 @@
-
-body {
-  background-color: gray;
-}
 html {
   height: 100%;
 }
 
 body {
-  width: 800px;
+  background-color: gray;
+  width: 1000px;
   height: 100%;
-  font-size: 15;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-
 header {
-  color: green;
   background-color: black;
+  text-align: center;
+  color: white;
   padding: 5px;
-  font-size: 20 ;
+  font-size: 20px ;
   display: block;
-}
-
+  width: 720px;
+    clear: both;
+  }
 h1 {
   text-align: center;
 }
 
-nav {
-  float: left;
+img {
+  text-align: center;
+  max-width: 50%
 }
 
+nav {
+      float: left;
+      text-align: center;
+      }
+
 nav ul {
-  padding: ;
+  position: relative;
+  left: 155px;
+  text-align: left;
   float: left;
   border-bottom: ;
   list-style-type: none;
 }
 
 nav li {
+  display: inline;
+  list-style-type:  none;
+  text-align: left;
   float: left;
+  /*display: block;*/
+  }
 
 nav li a {
-  color: green;
-  font-size: 20;
-  display: block;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
   height: 25px;
-  padding: 12px 18px 8px 18px;
+  padding: 8px 18px 8px 18px;
   vertical-align: middle;
+  text-align: center;
 }
 
 a {
+  text-align: center;
   color: black ;
 }
 
@@ -64,9 +76,7 @@ section {
 aside {
   width: 17%;
   display: inline-block;
-  background-color:;
-  padding:;
-  min-height: 100%;
+    min-height: 100%;
 }
 
 aside ul {
@@ -74,13 +84,9 @@ aside ul {
 }
 
 footer {
-  width: 790px;
-  background-color:;
-  color:;
-  clear: both;
+  background-color: black;
+  color: white;
+  width: 720px;
+    clear: both;
   display: block;
-}
-
-img {
-  max-width: 20%;
 }
